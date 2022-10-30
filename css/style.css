@@ -109,9 +109,6 @@ body{
   }
 
 
-
-
-
 /********************
  banner css
  *******************/
@@ -192,8 +189,9 @@ body{
 }
 
 .form-field{
+  border: none;
   padding: 12px 14px;
-  border-color: #2493e0;
+  border:1px solid #2493e0;
   color:#2493e0 ;
 }
 .w-20{
@@ -201,8 +199,9 @@ body{
 
 }
 .form-place{
+  border:  none;
   padding: 12px 14px;
-  border-color:#2493e0;
+  border:1px solid #2493e0;
 
 }
 .date-box{
@@ -280,6 +279,12 @@ body{
   transition: 0.7s;
   transform: translateY(-20px);
 }
+
+.list-item img{
+  width: 100%;
+}
+
+
 
 .more {
   
@@ -470,10 +475,15 @@ margin-bottom: 8px;
   position: relative;
 }
 
+.hotel-img img{
+  width: 100%;
+}
+
+
 .hotel-icon{
   position: absolute;
-  right: 82px;
-  top:14px ;
+  right: 20px;
+  top:50px ;
 
 } 
 .fa-share{
@@ -537,7 +547,9 @@ background-color: rgba(255,255,255,.5) !important;
  }
  .slider{
   background-color: #0e477d;
+  margin:20px;
   padding: 30px;
+
  }
 
  .slider-content p{
